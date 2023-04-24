@@ -1,0 +1,11 @@
+#ad-container {
+  height: 250px;
+  width: 300px;
+}
+#ad-container img {
+  border: 0;
+}
+
+.text-color {
+  color: white;
+}

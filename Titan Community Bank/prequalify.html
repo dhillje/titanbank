@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <title>Prequalify Loan</title>
+  </head>
+  <body>
+    <nav class="nav text-bg-danger">
+      <a class="nav-link text-white" aria-current="page" href="../index.html"
+        >Home</a
+      >
+      <a class="nav-link text-white" href="#">Link</a>
+      <a class="nav-link text-white" href="#">Link</a>
+    </nav>
+    <div class="text-center">
+      <h1>Prequalify For A Loan</h1>
+      <h2>Fill out the form below</h2>
+<div class="container-lg text-center p-2">
+      <form id="myForm">
+        <div class="form-group p-2">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="email-confirm">Re-enter Email Address:</label>
+        <input type="email" id="email-confirm" name="email-confirm" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required />
+         </div>
+         <div class="form-group p-2">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required />
+         </div>
+         <div class="form-group p-2">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="income">Gross Income:</label>
+        <input type="number" id="income" name="income" required />
+        </div>
+        <div class="form-group p-2">
+        <label for="ssn">Last 4 digits of SSN:</label>
+        <input type="number" id="ssn" name="ssn" required />
+        </div>
+        <label for="checkbox">
+          <input type="checkbox" id="checkbox" name="checkbox" required />
+          This prequalification request serves as my written instruction to
+          Titan Community Bank to obtain a “soft inquiry” about my credit
+          information, which won’t affect my credit score. I agree that TCB can
+          send me an email confirming my request.
+        </label>
+
+        <button class="btn btn-primary"type="submit" id="apply-btn">Apply</button>
+        <button class="btn btn-danger" type="button" id="reset-btn">Reset</button>
+
+      </form>
+
+      <table id="error-table" style="display: none">
+        <tr>
+          <th>Error Message</th>
+        </tr>
+      </table>
+    </div>
+      
+    <footer>Footer Section</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../js/prequalify.js"></script>
+  </body>
+</html>
